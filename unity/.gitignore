@@ -1,0 +1,98 @@
+########################################
+# unreal
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
+StarterContent/
+*/Content/ThirdPerson/
+*/Content/Characters/
+
+########################################
+# svn
+.svn/
+
+########################################
+# Visual Studio
+_LIB/
+_OBJ/
+_bin/
+Debug/
+Release/
+packages/
+.vs/
+.vscode/
+.tlog/
+**/obj/
+UpgradeLog.htm
+*.tlog
+*.idb
+*.ilk
+*.recipe
+*.log
+*.obj
+*.pdb
+*.sln.docstates
+*.user
+*.userosscache
+*.suo
+*.VC.db
+*.opensdf
+
+########################################
+# android studio
+.gradle/
+.cxx/
+build/
+**/main/assets/
+.externalNativeBuild/
+
+########################################
+# xcode
+*.xcuserstate
+**/DerivedData/
+**/xcuserdata/
+
+########################################
+# Rider
+.idea
+JetBrains/
+JetBrains.meta
+_ReSharper.Caches/
+
+########################################
+# OS
+.github
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+########################################
+# Unity (UnityNetcode)
+# Unity에서 자동 생성하는 폴더
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]serSettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+[Bb]uilds/
+
+# Windows에서는 기존 NuGet 'packages/' 규칙이 Unity 'Packages/'에도 일치할 수 있으므로 예외 처리.
+# Unity 의존성 목록: Packages/manifest.json, Packages/packages-lock.json 포함.
+!/Packages/
+!/Packages/**
+
+# Unity 프로젝트 루트에 자동 생성되는 IDE 솔루션 파일 (다른 C++ 저장소에서 재사용 시 검토).
+/*.csproj
+/*.sln
+/*.slnx
+/*.unityproj
